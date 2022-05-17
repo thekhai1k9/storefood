@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | DCr's Kaiz</title>
+    <!-- File css -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./globalSytle.css">
+    <link rel="stylesheet" href="./component.css">
+    <link rel="stylesheet" href="./home.css">
+
+    <!-- AOS css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Nav Section -->
+    <div class="nav">
+        <div class="container">
+            <div class="nav__wrapper">
+                <a href="./index.html" class="logo">
+                    <img src="./images/logo.svg" alt="hình ảnh logo của Sopi :v">
+                </a>
+                <nav>
+                    <div class="nav__icon">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>
+                    </div>
+
+                    <div class="nav__bgOverlay"></div>
+
+                    <ul class="nav__list">
+                        <div class="nav__close">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav__list__wrapper">
+                            <li><a href="./index.html" class="nav__link">Home</a></li>
+                            <li><a href="./menu.html" class="nav__link">Menu</a></li>
+                            <li><a href="./about.html" class="nav__link">About</a></li>
+                            <li><a href="./contact.html" class="nav__link">Contact</a></li>
+                            <li><a href="./booking.html" class="btn btn-primary">Book Table</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Nav Section -->
+
+    <!-- Start Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero__wrapper">
+                <div class="hero__left" data-aos="fade-left">
+                    <div class="hero__wrapper-info">
+                        <h1 class="hero__heading">Hương vị truyền thống</h1>
+                        <p class="hero__text">Chúng tôi là một nhà hàng đa ẩm thực mang đến 
+                            nhiều trải nghiệm ẩm thực đa dạng trong cả 
+                            môi trường ăn uống bình dân và cao cấp.</p>
+                        <div class="button__wrapper">
+                            <a href="#" class="btn btn-primary">Explore Menu</a>
+                            <a href="" class="btn">Book Table</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__right" data-aos="fade-right">
+                    <div class="hero__wrapper-img">
+                        <img src="./images/heroImg.png" alt="ảnh hero">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Start Store Info Section -->
+    <section class="store">
+        <div class="contaiter">
+            <div class="store__wrapper">
+                <div class="store__item">
+                    <div class="store__icon">
+                        <img src="./images/wall-clock-icon.svg" alt="icon clock">
+                    </div>
+                    <h3 class="store__title">8 AM - 10 PM</h3>
+                    <p class="store__text">Opening Hour</p>
+                </div>
+                <div class="store__item">
+                    <div class="store__icon">
+                        <img src="./images/address-icon.svg" alt="icon clock">
+                    </div>
+                    <h3 class="store__title">HCM, VietNamese</h3>
+                    <p class="store__text">Address</p>
+                </div>
+                <div class="store__item">
+                    <div class="store__icon">
+                        <img src="./images/phone-icon.svg" alt="icon clock">
+                    </div>
+                    <h3 class="store__title">+8436976.....</h3>
+                    <p class="store__text">Call now!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Store Info Section-->
+
+    <!-- Start Our Specials Section -->
+    <section id="specials" data-aos="fade-up">
+        <div class="container">
+            <div class="specials__wrapper">
+                <div class="specials__left">
+                    <div class="specials__item">
+                        <div class="specials__item-img">
+                            <img src="./images/food-3.png" alt="Food 3">
+                        </div>
+                        <h2 class="specials__item-title">Khoai tây chiên Kiểu USA</h2>
+                        <h3 class="specials__item-prices">$20</h3>
+                        <div class="specials__item-start">
+                            <img src="./images/3star.png" alt="ảnh đánh giá">
+                        </div>
+                        <p class="specials__item-text">Đĩa khoai tây chiên này là một đĩa ngon lành. Khoai tây chiên 
+                            giòn với nhiều rau tươi mùa hè và một trang trại sạch. 
+                            Bằng cách thêm một hỗn hợp gia vị với bột chipotle, tỏi và hành tây, 
+                            những món khoai lang chiên cay này sẽ đầy hương vị.</p>
+                    </div>
+                    <div class="specials__item">
+                        <div class="specials__item-img">
+                            <img src="./images/food-3.png" alt="Food 3">
+                        </div>
+                        <h2 class="specials__item-title">Khoai tây chiên Kiểu USA</h2>
+                        <h3 class="specials__item-prices">$20</h3>
+                        <div class="specials__item-start">
+                            <img src="./images/3star.png" alt="ảnh đánh giá">
+                        </div>
+                        <p class="specials__item-text">Đĩa khoai tây chiên này là một đĩa ngon lành. Khoai tây chiên 
+                            giòn với nhiều rau tươi mùa hè và một trang trại sạch. 
+                            Bằng cách thêm một hỗn hợp gia vị với bột chipotle, tỏi và hành tây, 
+                            những món khoai lang chiên cay này sẽ đầy hương vị.</p>
+                    </div>
+                    
+                </div>
+                <div class="specials__right">
+                    <h2 class="specials__title">Đặc biệt chúng tôi...</h2>
+                    <p class="specials__text">Tất cả thực phẩm của chúng tôi được chế biến hàng ngày tại nhà hàng của 
+                        chúng tôi để đảm bảo chất lượng cao nhất, những bữa ăn tươi ngon nhất đến tay khách hàng</p>
+                    <a href="./booking.html" class="btn btn-primary">Book Table</a>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Specials Section -->
+
+    <!-- Start Top Dishes -->
+    <section id="dish">
+        <div class="container">
+            <h2 class="dish__title">Món ăn hàng đầu</h2>
+            <div class="dish__wrapper" data-aos="fade-down">
+                <div class="dish__item">
+                    <div class="dish__item-img">
+                        <img src="./images/food-1.png" alt="food img">
+                    </div>
+                    <div class="dish__item-info">
+                        <h3 class="dish__item-title">Vegan Salad bowl</h3>
+                        <h3 class="dish__item-price">$15</h3>
+                        <div class="dish__item-start">
+                            <img src="./images/3star.png" alt="lượt đánh giá">
+                        </div>
+                    </div>
+                </div>
+                <div class="dish__item">
+                    <div class="dish__item-img">
+                        <img src="./images/food-2.png" alt="food img">
+                    </div>
+                    <div class="dish__item-info">
+                        <h3 class="dish__item-title">Vegan Pesto Zoodles</h3>
+                        <h3 class="dish__item-price">$10</h3>
+                        <div class="dish__item-start">
+                            <img src="./images/3star.png" alt="lượt đánh giá">
+                        </div>
+                    </div>
+                </div>
+                <div class="dish__item">
+                    <div class="dish__item-img">
+                        <img src="./images/food-3.png" alt="food img">
+                    </div>
+                    <div class="dish__item-info">
+                        <h3 class="dish__item-title">Hot Green Bowl</h3>
+                        <h3 class="dish__item-price">$26</h3>
+                        <div class="dish__item-start">
+                            <img src="./images/3star.png" alt="lượt đánh giá">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Top Dishes -->
+
+    <!-- Discount Section -->
+    <section id="discount" data-aos="fade-up">
+        <div class="container">
+            <div class="discount__wrapper">
+                <div class="discount__images">
+                <div class="discount__img1">
+                    <img src="./images/food-5.png" alt="Food img">
+                </div>
+                <div class="discount__img2">
+                    <img src="./images/food-4.png" alt="Food img">
+                </div>
+                <div class="discount__img3">
+                    <img src="./images/food-3.png" alt="Food img">
+                </div>
+                </div>
+                <div class="discount__info">
+                <h3 class="discount__text">20% OFF</h3>
+                <h3 class="discount__title">Giảm giá Sốcccc!!!</h3>
+                <h3 class="discount__price">
+                    <span class="discount__oldPrice">$45</span>
+                    <span class="discount__newPrice">$35</span>
+                </h3>
+                <div class="discount__stars">
+                    <img src="./images/3star.png" alt="3 stars">
+                </div>
+                <a class="btn btn-primary" href="./booking.html">Book Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Discount Section -->
+
+
+  <!-- Events Media -->
+    <section id="eventsMedia" data-aos="fade-up">
+        <div class="container">
+            <div class="eventsMedia__wrapper">
+                <div class="eventsMedia__1">
+                <img src="./images/eventsMedia1.png" alt="events">
+                <a href="#" class="eventsMedia__1__playButton">
+                    <img src="./images/playIcon.svg" alt="play button">
+                </a>
+                </div>
+                <div class="eventMedia__2">
+                <img src="./images/eventsMedia2.png" alt="events">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Events Media -->
+
+    <!-- Events Info -->
+    <section id="eventsInfo" data-aos="fade-up">
+        <div class="container">
+            <div class="eventsInfo__wrapper">
+                <div class="eventsInfo__left">
+                <div class="eventsInfo__item">
+                    <div class="eventsInfo__item__img">
+                    <img src="./images/event-corporate.png" alt="corporate events">
+                    </div>
+                    <div class="eventsInfo__item__info">
+                    <h2 class="eventsInfo__item__title">Sự kiện công ty</h2>
+                    <p class="eventsInfo__item__text">
+                        Là một địa điểm hoàn hảo cho các sự kiện của công ty bạn. Chúng tôi chuyên về các bữa tiệc riêng tư.
+                    </p>
+                    </div>
+                </div>
+                <div class="eventsInfo__item">
+                    <div class="eventsInfo__item__img">
+                    <img src="./images/event-weedings.png" alt="wedding events">
+                    </div>
+                    <div class="eventsInfo__item__info">
+                    <h2 class="eventsInfo__item__title">Đám cưới</h2>
+                    <p class="eventsInfo__item__text">
+                        Mang đến cho khách hàng một trải nghiệm tiệc cưới độc đáo riêng biệt trong khung cảnh ngoạn mục, tinh tế và thoải mái
+                    </p>
+                    </div>
+                </div>
+                </div>
+                <div class="eventsInfo__right">
+                <h2 class="eventsInfo__title">Đặt phòng cho sự kiện</h2>
+                <p class="eventsInfo__text">Đặt chỗ cho sự kiện riêng tư hoặc sự kiện công ty của bạn tại ẩm thực của Shaif để trải nghiệm thực sự độc đáo.</p>
+                <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Events Info -->
+
+    <!-- Why Us section -->
+    <section id="whyUs">
+        <div class="container">
+            <div class="whyUs__wrapper">
+                <div class="whyUs__left" data-aos="fade-right">
+                    <h2 class="whyUs__title">
+                        Tại sao chọn thực phẩm của chúng tôi?
+                    </h2>
+                    <p class="whyUs__text">
+                        Chất lượng dịch vụ, thức ăn, không gian và giá trị đồng tiền là những yếu tố chính để lựa chọn một nhà hàng. Một trong những nhà hàng ăn ngon tinh tế nhất ở các thành phố HCM với tầm nhìn quyến rũ ra đường phố Sài Gòn, bầu không khí hoàn hảo và đồ ăn hảo hạng.
+                    </p>
+                </div>
+                <div class="whyUs__right" data-aos="fade-left">
+                    <div class="whyUs__items__wrapper">
+                        <div class="whyUs__item">
+                            <div class="whyUs__item__icon">
+                                <img src="./images/whyUs-icon1.svg" alt="quality Food">
+                            </div>
+                        <p class="whyUs__item__text">Thức ăn chất lượng</p>
+                        </div>
+                        <div class="whyUs__item">
+                            <div class="whyUs__item__icon">
+                                <img src="./images/whyUs-icon2.svg" alt="Classical taste">
+                            </div>
+                        <p class="whyUs__item__text">Hương vị cổ điển</p>
+                        </div>
+                        <div class="whyUs__item">
+                            <div class="whyUs__item__icon">
+                                <img src="./images/whyUs-icon3.svg" alt="Skilled chef">
+                            </div>
+                        <p class="whyUs__item__text">Đầu bếp FiveStart</p>
+                        </div>
+                        <div class="whyUs__item">
+                            <div class="whyUs__item__icon">
+                                <img src="./images/whyUs-icon4.svg" alt="Best service">
+                            </div>
+                        <p class="whyUs__item__text">Dịch vụ tốt nhất</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Why Us section -->
+
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="testimonial__wrapper" data-aos="fade-up">
+                <h2 class="testimonial__title">Khách hàng của chúng tôi nói gì ?</h2>
+                <div class="testimonial__items__wrapper">
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="./images/dv1.jpg" alt="bl1">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__name">Sayed Ahmed</h3>
+                        <div class="testimonial__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                        <p class="testimonial__item__text">
+                            “Đã ghé thăm nhà hàng cùng với bạn bè vào Chủ nhật tuần trước. Bữa ăn thực sự đáng  và được chào đón rất nồng nhiệt - chúng tôi sẽ
+                            giới thiệu nhà hàng đáng yêu này và sẽ cố gắng quay lại lần nữa”
+                        </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="./images/dv2.jpg" alt="bl2">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__name">Arfan</h3>
+                        <div class="testimonial__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                        <p class="testimonial__item__text">
+                            "Từ đầu đến cuối, trải nghiệm đáng để thủ. Chủ rất dễ chịu, nhân viên chờ đợi john rất tuyệt vời và
+                            chu đáo, thức ăn phong phú và ngon, các món tráng miệng trên thế giới này"
+                        </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="./images/dv3.jpg" alt="bl3">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__name">Fahim & Nishat</h3>
+                        <div class="testimonial__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                        <p class="testimonial__item__text">
+                            “Một sự chào đón nồng nhiệt và thân thiện với dịch vụ khách hàng tuyệt vời. Luôn luôn tuyệt vời, thức ăn ngon được phục vụ trong đường ống
+                            nóng - chỉ theo cách chúng ta yêu thích nó. Chắc chắn sẽ giới thiệu. Chúng tôi đã nhiều lần và nó luôn
+                            vượt quá mong đợi của chúng tôi"
+                        </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="./images/dv4.jpg" alt="bl4">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__name">Hussain</h3>
+                        <div class="testimonial__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                        <p class="testimonial__item__text">
+                            “Tôi chỉ muốn nói lời cảm ơn vì dịch vụ tuyệt vời mà chúng tôi đã nhận được tại nhà hàng của bạn đêm qua.
+                            Mặc dù nơi này rất bận rộn, chúng tôi vẫn có một khoảng thời gian tuyệt vời và thực sự đánh giá cao 
+                            nhà hàng này!“
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonial Section -->
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" data-aos="fade-up">
+        <div class="container">
+            <div class="newsletter__wrapper">
+                <div class="newsletter__info">
+                    <h3 class="newsletter__title">Join Newsletter</h3>
+                <p class="newsletter__text">
+                    Nhận thông báo về những tin tức mới nhất và các ưu đãi gần đây từ nhà hàng !!!
+                </p>
+                </div>
+                <div class="newsletter__form">
+                    <form action="">
+                        <label for="email">
+                            <input type="email" placeholder="Your Email Address">
+                        </label>
+                        <button type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Newsletter Section -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col1">
+                    <div class="footer__logo">
+                        <img src="./images/logo.svg" alt="ảnh logo">
+                    </div>
+                    <p class="footer__desc">
+                        Fresh and delicious traditional VietNamese food delight the whole family.
+                    </p>
+                    <div class="footer__socials">
+                        <h4 class="footer__socials-title">Follow us</h4>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__col2">
+                    <h3 class="footer__text-title">
+                        Links
+                        <ul class="footer__text">
+                            <li>
+                                <a href="./index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="./menu.html">Menu</a>
+                            </li>
+                            <li>
+                                <a href="./booking.html">Book Table</a>
+                            </li>
+                            <li>
+                                <a href="./about.html">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </h3>
+                </div>
+                <div class="footer__col3">
+                    <h3 class="footer__text-title">
+                        Support
+                        <ul class="footer__text">
+                            <li>
+                                <a href="./contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Support Center</a>
+                            </li>
+                            <li>
+                                <a href="#">FeedBack</a>
+                            </li>
+                        </ul>
+                    </h3>
+                </div>
+                <div class="footer__col4">
+                    <h3 class="footer__text-title">
+                        Contact
+                        <ul class="footer__text">
+                            <li>
+                                <a href="tel:+84 036976....">+84 036976....</a>
+                            </li>
+                            <li>
+                                <a href="mailto:thekhai1k9@gmail.com">thekhai1k9@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="#">HCM, VietNamese</a>
+                            </li>
+
+                        </ul>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="copyright">
+        <div class="container">
+            <p class="copyright__text"> Copy right 2022 Shaif's Cuisine | All Right PTK</p>
+        </div>
+    </div>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Customer Scirpt -->
+    <script src="./main.js"></script>
+</body>
+</html>
